@@ -7,7 +7,10 @@
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | relURL }}" role="button">Get Started</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "https://raw.githubusercontent.com/h-enk/doks/master/package.json" }}{{ $data.version }}</a></p>
+      <p class="meta">100% free and open source. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "https://raw.githubusercontent.com/h-enk/doks/master/package.json" }}{{ $data.version }}</a></p>
+    </div>
+    <div class="col-lg-12 text-center">
+      <img class="full-width" src="images/banner.png" />
     </div>
   </div>
 </section>
@@ -15,7 +18,7 @@
 
 {{ define "sidebar-prefooter" }}
 <div class="d-flex justify-content-start mb-3">
-  <div class="bg-dots"></div>
+  <!-- <div class="bg-dots"></div> -->
 </div>
 
 {{ if ne (hugo.Environment) "development" -}}

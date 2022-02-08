@@ -1,10 +1,11 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
-titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+title = "Ubiq"
+titleSeparator = ""
+titleAddition = ""
+description = "Ubiq is a Unity networking library for research, teaching and development, maintained by the Virtual Environments and Computer Graphics group at UCL. Ubiq is 100% free and open source."
+banner = "images/banner.png"
 
 ## Open Graph
 images = ["doks.png"]
