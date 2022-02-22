@@ -1,14 +1,13 @@
 ---
-title: "Say hello to Doks"
-emoji: ":wave:"
-description: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Introducing Doks, a Hyas theme build by the creator of Hyas. Doks helps you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-date: 2020-11-04T09:19:42+01:00
-lastmod: 2020-11-04T09:19:42+01:00
+title: "Say hello to Ubiq 👋"
+description: "Description..."
+lead: "Lead..."
+date: 2022-02-21T09:19:42+01:00
+lastmod: 2022-02-21T09:19:42+01:00
 draft: false
 weight: 50
 images: []
-contributors: ["Henk Verlinde"]
+contributors: ["Nels Numan"]
 ---
 
 Use the standard setup or easily make it your own.
@@ -22,7 +21,7 @@ Use the standard setup or easily make it your own.
 Get all the [Hyas](https://gethyas.com/) goodness:
 
 - Security aware
-- Fast by default :zap:
+- Fast by default ⚡️
 - SEO-ready
 - Development tools (linting, cleaning)
 - Bootstrap framework
@@ -30,7 +29,7 @@ Get all the [Hyas](https://gethyas.com/) goodness:
 
 ### Plus
 
-- Full text search — using [FlexSearch](https://github.com/nextapps-de/flexsearch) :green_heart:
+- Full text search — using [FlexSearch](https://github.com/nextapps-de/flexsearch) 🚀
 - Page layouts (landing page, blog, documentation layout)
 - Dark mode — switch to a low-light UI with the click of a button
 

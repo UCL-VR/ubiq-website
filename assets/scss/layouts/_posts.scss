@@ -1,5 +1,6 @@
 .home .card,
 .blog .card,
+.publications .card,
 .newsletter .card,
 .contributors.list .card {
   margin-top: 2rem;
@@ -15,6 +16,7 @@
 
 .home .card:hover,
 .blog .card:hover,
+.publications .card:hover,
 .newsletter .card:hover,
 .contributors.list .card:hover,
 .showcase.list .card:hover,
@@ -25,9 +27,14 @@
 
 .home .card-body,
 .blog .card-body,
+.publications .card-body,
 .newsletter .card-body,
 .contributors.list .card-body {
   padding: 0 2rem 1rem;
+}
+
+.card.no-hover-effect:hover {
+  transform: none;
 }
 
 .blog-header {
@@ -41,4 +48,8 @@
 
 .types-single {
   margin-right: 0.75rem;
+}
+
+article.publication {
+  text-align: center;
 }
