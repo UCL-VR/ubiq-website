@@ -1,20 +1,20 @@
 [[docs]]
-  name = "Prologue"
+  name = "Getting Started"
   weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  identifier = "getting-started"
+  url = "/docs/getting-started/"
 
 [[docs]]
-  name = "Recipes"
+  name = "Nexus"
   weight = 20
-  identifier = "recipes"
-  url = "/docs/recipes/"
+  identifier = "nexus"
+  url = "/docs/nexus/"
 
 [[docs]]
-  name = "Reference Guides"
+  name = "Advanced"
   weight = 30
-  identifier = "reference-guides"
-  url = "/docs/reference-guides/"
+  identifier = "advanced"
+  url = "/docs/advanced/"
 
 [[docs]]
   name = "Extensions"
@@ -23,10 +23,10 @@
   url = "/docs/extensions/"
 
 [[docs]]
-  name = "Contributing"
+  name = "Programming"
   weight = 50
-  identifier = "contributing"
-  url = "/docs/contributing/"
+  identifier = "programming"
+  url = "/docs/programming/"
 
 [[docs]]
   name = "Help"
@@ -34,11 +34,17 @@
   identifier = "help"
   url = "/docs/help/"
 
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
+[[docs]]
+  name = "Development"
+  weight = 70
+  identifier = "development"
+  url = "/docs/development/"
+  
+[[docs]]
+  name = "Meta"
+  weight = 80
+  identifier = "meta"
+  url = "/docs/meta/"
 
 [[main]]
   name = "Docs"
