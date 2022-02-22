@@ -17,12 +17,17 @@
 		{{ end -}}
 			<div class="showcase-meta d-flex justify-content-between">
 				<span class="fw-bold">{{ .Title }}</span>
-				<span>
+				<div class="showcase-meta-right">
 					{{ if .Params.types -}}
 						<small class="types-single">{{ range $index, $type := .Params.types }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "/showcase/types/" | relURL }}{{ . | urlize }}/">{{ . | title }}</a>{{ end -}}</small>
 					{{ end -}}
-					<a class="view-website" href="{{ .Params.link }}" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a>
-				</span>
+					{{ if .Params.link -}}
+					<div class="types-single ps-0 py-1"><a class="view-website" href="{{ .Params.link }}" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></div>
+					{{ end -}}
+					{{ if .Params.codeurl -}}
+					<div class="types-single ps-0 py-1"><a class="view-github" href="{{ .Params.codeurl }}" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg></a></div>
+					{{ end -}}
+				</div>
 			</div>
 			{{ $image := index .Params.images 0 -}}
 			{{ .Scratch.Set "src" $image -}}
@@ -33,6 +38,13 @@
 			</div>
 			<h1>{{ .Title }}</h1>
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
+			<h4>Links</h4>
+			{{ if .Params.link -}}
+			<a class="btn btn-primary btn-lg px-4 mb-2" href="{{.Params.link | absURL }}" role="button">Website</a>
+			{{ end }}
+			{{ if .Params.codeurl -}}
+			<a class="btn btn-primary btn-lg px-4 mb-2" href="{{.Params.codeurl | absURL }}" role="button">Code</a>
+			{{ end }}
 			{{ partial "main/headline-hash.html" .Content }}
 			{{ if .Params.functionalities -}}
 				<h2>Functionalities</h2>
@@ -40,10 +52,7 @@
 				{{ range $index, $type := .Params.functionalities }}<li><a href="{{ "/showcase/functionalities/" | relURL }}{{ . | urlize }}/">{{ . | title }}</a></li>{{ end -}}
 				</ul>
 			{{ end -}}
-			<h2>Website</h2>
-			<ul>
-				<li><a href="{{ .Params.link }}">{{ strings.TrimPrefix "https://" .Params.link }}</a></li>
-			</ul>
+
 			<!-- {{ partial "main/edit-page.html" . }} -->
 			{{ partial "main/docs-navigation.html" . }}
 		</main>

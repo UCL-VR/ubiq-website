@@ -1,5 +1,6 @@
 .home .card,
 .blog .card,
+.showcase.single .card,
 .publications .card,
 .newsletter .card,
 .contributors.list .card {
@@ -16,6 +17,7 @@
 
 .home .card:hover,
 .blog .card:hover,
+.showcase.single .card:hover,
 .publications .card:hover,
 .newsletter .card:hover,
 .contributors.list .card:hover,
@@ -27,6 +29,7 @@
 
 .home .card-body,
 .blog .card-body,
+.showcase.single .card-body,
 .publications .card-body,
 .newsletter .card-body,
 .contributors.list .card-body {

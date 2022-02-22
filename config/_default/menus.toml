@@ -150,5 +150,5 @@
 
 [[tertiary]]
   name = "Submit to Showcase"
-  url = "https://github.com/h-enk/doks/discussions?discussions_q=category%3A%22Show+and+tell%22"
+  url = "https://github.com/UCL-VR/ubiq/discussions/categories/show-and-tell"
   weight = 10
