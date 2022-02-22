@@ -89,6 +89,12 @@
   url = "https://github.com/UCL-VR/ubiq/discussions"
   parent = "community"
 
+[[main]]
+  name = "Open Collective"
+  weight = 30
+  url = "https://opencollective.com/doks"
+  parent = "community"
+
 # [[main]]
 #   name = "Get Started"
 #   weight = 30

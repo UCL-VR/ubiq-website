@@ -223,6 +223,12 @@ pre {
   width: 100%;
 }
 
+@include media-breakpoint-up(md) {
+  .dropdown-menu.dropdown-menu-main {
+    width: auto;
+  }
+}
+
 .dropdown-menu-main .dropdown-item {
   color: inherit;
   font-size: $font-size-base;
@@ -244,4 +250,8 @@ pre {
 
 .dropdown-menu-main .dropdown-item.active:hover {
   background-color: transparent;
+}
+
+.btn-light {
+  transition: all 0s ease 0s;
 }

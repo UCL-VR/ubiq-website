@@ -256,6 +256,7 @@ bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
+smallLimit = "300"
 ```
 
 #### Footer
@@ -274,9 +275,19 @@ alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/
 #### Edit page
 
 ```toml
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
 docsRepo = "https://github.com/h-enk/doks"
-editPage = true
+docsRepoBranch = "master"
+docsRepoSubPath = ""
+editPage = false
+lastMod = false
 ```
+
+{{< details "How to show the last modified date" >}}
+If you'd like to show the last modified date (the last Git revision date), make sure that both `lastMod = true` and `enableGitInfo = true` (see also [Basics]({{< relref "docs/recipes/project-configuration#basics" >}}))
+{{< /details >}}
 
 #### Options
 
@@ -293,6 +304,7 @@ Switch main functionalities on/off — also optimizing CSS + JS footprint.
   breadCrumb = false
   highLight = true
   kaTex = false
+  fullWidth = false
 ```
 
 ## next
