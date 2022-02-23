@@ -79,5 +79,5 @@ editPage = true
 
 [menu]
   [menu.section]
-    auto = false
+    auto = true
     collapsibleSidebar = true

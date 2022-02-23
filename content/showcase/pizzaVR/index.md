@@ -7,7 +7,6 @@ date: 2021-06-11T12:20:40+01:00
 draft: false
 images: ["pizzaVR.png"]
 link: ""
-youtubecode: ""
 codeurl: "https://github.com/CatalinOAlexandru/pizzaVR-Game"
 menu:
   showcase:

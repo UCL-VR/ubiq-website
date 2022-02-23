@@ -52,11 +52,6 @@
   weight = 20
 
 [[main]]
-  name = "Tutorial"
-  url = "/tutorial/introduction/"
-  weight = 10
-
-[[main]]
   name = "Showcase"
   url = "/showcase/"
   weight = 30
@@ -72,22 +67,29 @@
   weight = 40
 
 [[main]]
-  name = "Community"
-  url = "https://github.com/UCL-VR/ubiq/discussions"
-  weight = 50
-  identifier = "community"
+  name = "Contact"
+  weight = 60
+  url = "/contact/"
+  identifier = "contact"
 
 [[main]]
-  name = "Discussions"
-  weight = 20
-  url = "https://github.com/UCL-VR/ubiq/discussions"
-  parent = "community"
-
-[[main]]
-  name = "Team"
-  weight = 5
+  name = "Contributors"
+  weight = 10
   url = "/contributors/"
-  parent = "community"
+  parent = "contact"
+
+[[main]]
+  name = "Media"
+  weight = 20
+  url = "/media/"
+  parent = "contact"
+
+[[main]]
+  name = "↗ Ask a Question"
+  url = "https://github.com/UCL-VR/ubiq/discussions/categories/q-a"
+  weight = 5
+  identifier = "discussions"
+  parent = "contact"
 
 # [[main]]
 #   name = "Get Started"
