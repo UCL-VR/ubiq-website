@@ -4,7 +4,7 @@
 title = "Ubiq"
 titleSeparator = ""
 titleAddition = ""
-description = "Ubiq is a Unity networking library for research, teaching and development, maintained by the Virtual Environments and Computer Graphics group at UCL. Ubiq is 100% free and open source."
+description = "A Unity networking library for research, teaching and development, maintained by the Virtual Environments and Computer Graphics group at UCL. Ubiq is 100% free and open source."
 banner = "images/banner.png"
 
 ## Open Graph
@@ -61,7 +61,7 @@ copyRight = "Copyright (c) 2020-2022 UCL"
 # Alert
 alert = true
 alertDismissable = true
-alertText = "Instructions for the <strong>IEEE VR 2022 Tutorial can be found</strong> <a class=\"alert-link stretched-link\" href=\"/blog/doks-v0.4/\">here</a>!"
+alertText = "Information on the <strong>Ubiq tutorial at IEEE VR 2022</strong> can be found <a class=\"alert-link stretched-link\" href=\"/blog/ubiq-tutorial-at-ieee-vr-2022/\">here</a>!"
 
 # Edit Page
 docsRepo = "https://github.com/UCL-VR/ubiq-website"
