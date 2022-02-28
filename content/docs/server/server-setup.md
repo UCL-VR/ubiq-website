@@ -13,9 +13,8 @@ The server code is included in the Ubiq repository.
 
 After checking out the code, run
 
-{{
-    npm install 
-}}
+{{< highlight go >}}npm install{{< /highlight >}}
 
+in the `Node` directory. The server can then be started.
 
-in the Node directory. The server can then be started.
+{{< highlight go >}}node app.js{{< /highlight >}}

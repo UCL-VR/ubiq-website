@@ -19,13 +19,13 @@ The logging functionality uses a custom Json serialiser that facilitates buildin
 
 This is based on [neuecc's Utf8Json](https://github.com/neuecc/Utf8Json), but with modifications to track memory usage and remove code generation requirements.
 
-The Utf8Json serialiser is in the Ubiq.Logging.Utf8Json namspace. It is not recommended to use the serialiser for purposes other than logging; import an unmodified version of the library separately instead.
+The Utf8Json serialiser is in the `Ubiq.Logging.Utf8Json` namspace. It is not recommended to use the serialiser for purposes other than logging; import an unmodified version of the library separately instead.
 
 ## Formatters
 
-Libraries such as Utf8Json typically have methods that serialise and deseralise specific types by sequentially reading and writing tokens to and from streams. (In this case, the tokes are read and written using the JsonReader and JsonWriter structures.)
+Libraries such as Utf8Json typically have methods that serialise and deseralise specific types by sequentially reading and writing tokens to and from streams. (In this case, the tokes are read and written using the `JsonReader` and `JsonWriter` structures.)
 
-Utf8Json finds the appropriate method to use using FormatterResovler classes. These classes return a cached Formatter< T > class, which is an object with two methods to read and write objects of type T as Json.
+Utf8Json finds the appropriate method to use using `FormatterResovler` classes. These classes return a cached `Formatter<T>` class, which is an object with two methods to read and write objects of type `T` as Json.
 
 The included version of Utf8Json includes formatters for a number of known types, including all the basic primitives, and enums. Enums are serialised as names.
 
@@ -37,7 +37,7 @@ To avoid code generation, unknown types are serialised by the Unity JsonUtility 
 
 ### Resolvers and Formatters
 
-When a type is serialised, Utf8Json will use the DefaultResolver to find a formatter. The DefaultResolver is defined in the JsonSerializer class as a static member and returns a StandardResolver, a type of composite resolver. This resolver will search each resolver registered to it in turn, and return the first Formatter that matches the type. The StandardResolver includes formatters for the built-in types, and the dynamic formatter fallback.
+When a type is serialised, Utf8Json will use the `DefaultResolver` to find a formatter. The `DefaultResolver` is defined in the `JsonSerializer` class as a static member and returns a `StandardResolver`, a type of composite resolver. This resolver will search each resolver registered to it in turn, and return the first `Formatter` that matches the type. The `StandardResolver` includes formatters for the built-in types, and the dynamic formatter fallback.
 
 ### Caching
 
@@ -62,15 +62,15 @@ static class FormatterCache< T >
 
 This snippet leverages the behaviour of generics in C# to replace formatter references in code, without using code generation. In C#, when a generic type is [first constructed](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generics-in-the-run-time), the runtime will produce the concrete type and substitute it in the appropriate locations in the MSIL. The static constructor is [called](https://ucl-vr.github.io/ubiq/eventlogserialisation/(https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors)) before the formatter is referenced for the first time.
 
-That is, the generic FormatterCache type is replaced in the MSIL and the formatter member it returns is resolved on demand (when the FormatterCache< T > is first constructed).
+That is, the generic `FormatterCache` type is replaced in the MSIL and the formatter member it returns is resolved on demand (when the `FormatterCache<T>` is first constructed).
 
 ### Memory Management
 
 The Utf8Json namespace manages its own global memory pools to minimise GC allocations. It does not track memory usage directly however.
 
-Instead, LogManager instances track how many bytes of pooled memory they have in their queues at any time, and use this to control whether new events are buffered or dropped.
+Instead, `LogManager` instances track how many bytes of pooled memory they have in their queues at any time, and use this to control whether new events are buffered or dropped.
 
-Memory is rented from the pool on demand by JsonWriter objects created by EventLogger instances. Outstanding memory is returned to the pool when a JsonWriter is disposed. JsonWriters are disposed by the LogManager they are fed to, either after being copied for transmission or discarded when the buffer reaches capacity. EventLogger instances only create JsonWriters if a LogManager has been registered to recieve (and dispose of) the completed object.
+Memory is rented from the pool on demand by `JsonWriter` objects created by `EventLogger` instances. Outstanding memory is returned to the pool when a `JsonWriter` is disposed. `JsonWriters` are disposed by the `LogManager` they are fed to, either after being copied for transmission or discarded when the buffer reaches capacity. `EventLogger` instances only create `JsonWriters` if a `LogManager` has been registered to recieve (and dispose of) the completed object.
 
 
 

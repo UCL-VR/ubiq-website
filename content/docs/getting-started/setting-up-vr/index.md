@@ -31,7 +31,7 @@ toc: true
 
 ## Oculus Quest
 
-1. Install android build tools. In Unity Hub, click Installs on the left-hand menu. Click the three dots in the top right corner of the box for your Unity 2019.4.x installation and select Add modules from the dropdown. Select Android Build Support and both subsequent options (Android SDK & NDK Tools and OpenJDK). Wait for installation to complete, then re-open your project.
+1. Install android build tools. In Unity Hub, click `Installs` on the left-hand menu. Click the three dots in the top right corner of the box for your Unity 2019.4.x installation and select `Add modules` from the dropdown. Select `Android Build Support` and both subsequent options (`Android SDK & NDK Tools` and `OpenJDK`). Wait for installation to complete, then re-open your project.
 
 ![add-modules](add-modules.png)
 
@@ -41,6 +41,6 @@ toc: true
 
 ![xr-plugin-management2](xr-plugin-management2.png)
 
-4. (Optional) To create your first build for the Quest, follow the Oculus Enable Device for Development and Testing guide: [https://developer.oculus.com/documentation/unity/unity-enable-device/](https://developer.oculus.com/documentation/unity/unity-enable-device/)
+4. (Optional) To create your first build for the Quest, follow the Oculus `Enable Device for Development and Testing` guide: [https://developer.oculus.com/documentation/unity/unity-enable-device/](https://developer.oculus.com/documentation/unity/unity-enable-device/)
 
 
