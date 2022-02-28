@@ -44,14 +44,14 @@ When a type is serialised, Utf8Json will use the DefaultResolver to find a forma
 Utf8Json makes common use of the following design pattern.
 
 {{< highlight go >}}
-public IJsonFormatter<T> GetFormatter<T>()
+public IJsonFormatter< T > GetFormatter< T >()
 {
-    return FormatterCache<T>.formatter;
+    return FormatterCache< T >.formatter;
 }
 
-static class FormatterCache<T>
+static class FormatterCache< T >
 {
-    public static readonly IJsonFormatter<T> formatter;
+    public static readonly IJsonFormatter< T > formatter;
 
     static FormatterCache()
     {
