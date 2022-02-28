@@ -154,7 +154,7 @@ The Entries count will increase, and a User Log file will appear in the default 
 
 ## Considerations
 
-To find out more about the logging, see the Logging section in the Advanced topics.
+To find out more about the logging, see the [Logging](/docs/logging/introduction) section in the Advanced topics.
 
 Log events can be generated from user actions, but also other external events, or at a regular frequency (e.g. to log the Transform of dynamic objects)
 

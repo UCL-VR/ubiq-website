@@ -14,7 +14,7 @@ weight: 30
 
 Access to nexus.cs.ucl.ac.uk is via SSH.
 
-The nodejs process is managed via pm2. The relevant commands are:
+The nodejs process is managed via [pm2](https://pm2.keymetrics.io/). The relevant commands are:
 
 * pm2 list (Shows running processes)
 * pm2 log (Shows the logs)
@@ -30,7 +30,7 @@ All VECG members who request access will be given sudo permission. All members w
 
 ## Git
 
-The node account has been given access to the GitHub repository through a Deploy Key. This is a single-use SSH key associated with the repository.
+The node account has been given access to the GitHub repository through a [Deploy Key](https://docs.github.com/en/developers/overview/managing-deploy-keys). This is a single-use SSH key associated with the repository.
 
 # New
 

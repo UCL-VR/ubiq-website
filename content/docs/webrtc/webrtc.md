@@ -17,7 +17,7 @@ WebRTC was chosen as it is the only stack that interoperates with web-browsers. 
 It is recommended to use Ubiq's Audio API, rather than work with WebRTC directly.
 
 ### Library
-Ubiq currently uses SIPSorcery's .NET WebRTC library. Unlike typical WebRTC implementations, this library does not include a full media stack. Ubiq provides a simple audio endpoint which integrates with the Unity audio system, allowing for microphone input and spatialised audio output.
+Ubiq currently uses SIPSorcery's .NET WebRTC [library](https://github.com/sipsorcery-org/sipsorcery). Unlike typical WebRTC implementations, this library does not include a full media stack. Ubiq provides a simple audio endpoint which integrates with the Unity audio system, allowing for microphone input and spatialised audio output.
 
 ### Operation
 

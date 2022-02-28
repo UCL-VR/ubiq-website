@@ -41,6 +41,6 @@ toc: true
 
 ![xr-plugin-management2](xr-plugin-management2.png)
 
-4. Click the Android tab and check the boxes for Oculus and "Initialize XR on Startup".
+4. (Optional) To create your first build for the Quest, follow the Oculus Enable Device for Development and Testing guide: [https://developer.oculus.com/documentation/unity/unity-enable-device/](https://developer.oculus.com/documentation/unity/unity-enable-device/)
 
 

@@ -103,9 +103,9 @@ LogCollector instances receive events from LogManager instances and write them t
 
 A single LogCollector receives all event types; filtering can only occur at the LogManager.
 
-The current implementation of the LogCollector writes events with different types to different files in the Persistent Data folder of whatever platform it is running on.
+The current implementation of the LogCollector writes events with different types to different files in the [Persistent Data](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html) folder of whatever platform it is running on.
 
-Events are written as Json (Utf8 strings). The files themselves are Json compliant, with events being placed in a top-level Json Array.
+Events are written as Json (Utf8 strings). The files themselves are Json compliant, with events being placed in a top-level Json [Array](https://www.w3schools.com/js/js_json_arrays.asp).
 
 ## Local Log Collection
 
@@ -119,4 +119,4 @@ This allows logging events entirely on one machine, for example, data collection
 
 A LogCollector outputs a stream of structured logs in standards compliant Json. These logs can be fed to a stack like the ELK, processed with third-party tools like Matlab or Excel, or processed programmatically on platforms such as Python.
 
-See the Analysis section for examples of how to process the logs.
+See the [Analysis](/docs/logging/analysis) section for examples of how to process the logs.

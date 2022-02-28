@@ -17,7 +17,7 @@ toc: true
 
 The logging functionality uses a custom Json serialiser that facilitates building Json objects across multiple function calls.
 
-This is based on neuecc's Utf8Json, but with modifications to track memory usage and remove code generation requirements.
+This is based on [neuecc's Utf8Json](https://github.com/neuecc/Utf8Json), but with modifications to track memory usage and remove code generation requirements.
 
 The Utf8Json serialiser is in the Ubiq.Logging.Utf8Json namspace. It is not recommended to use the serialiser for purposes other than logging; import an unmodified version of the library separately instead.
 
@@ -31,7 +31,7 @@ The included version of Utf8Json includes formatters for a number of known types
 
 ### Code Generation
 
-To serialise types that do not have an explicit formatter defined, libraries such as Utf8Json usually build serialisation methods at runtime using code generation. This is not supported on platforms that use IL2CPP however.
+To serialise types that do not have an explicit formatter defined, libraries such as Utf8Json usually build serialisation methods at runtime using code generation. This is not supported on platforms that use [IL2CPP](https://docs.unity3d.com/Manual/ScriptingRestrictions.html) however.
 
 To avoid code generation, unknown types are serialised by the Unity JsonUtility and embedded as objects.
 
@@ -60,7 +60,7 @@ static class FormatterCache< T >
 }
 {{< /highlight >}}
 
-This snippet leverages the behaviour of generics in C# to replace formatter references in code, without using code generation. In C#, when a generic type is first constructed, the runtime will produce the concrete type and substitute it in the appropriate locations in the MSIL. The static constructor is called before the formatter is referenced for the first time.
+This snippet leverages the behaviour of generics in C# to replace formatter references in code, without using code generation. In C#, when a generic type is [first constructed](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generics-in-the-run-time), the runtime will produce the concrete type and substitute it in the appropriate locations in the MSIL. The static constructor is [called](https://ucl-vr.github.io/ubiq/eventlogserialisation/(https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors)) before the formatter is referenced for the first time.
 
 That is, the generic FormatterCache type is replaced in the MSIL and the formatter member it returns is resolved on demand (when the FormatterCache< T > is first constructed).
 

@@ -33,13 +33,13 @@ Some Json members are defined by the Logger type. For example, the ContextLogger
 
 ## Python
 
-Python can be used to analys logs programmatically. The Jupyter notebook below shows how to import and process logs using Pandas, a powerful data analysis library for Python.
+Python can be used to analys logs programmatically. The Jupyter notebook below shows how to import and process logs using [Pandas](https://pandas.pydata.org/), a powerful data analysis library for Python.
 
 ![python](python.png)
 
-* See the Notebook in full
-* Download Jupyter Notebook
-* Download Example Log File
+* [See the Notebook in full](https://ucl-vr.github.io/ubiq/html/b27a1510-38ec-4821-92b1-478dcbcf1ab1.html)
+* [Download Jupyter Notebook](https://ucl-vr.github.io/ubiq/files/Application_Log.ipynb)
+* [Download Example Log File](https://ucl-vr.github.io/ubiq/files/Application_Log.json)
 
 ## Excel
 
@@ -111,5 +111,5 @@ legend(peers);
 
 ![matlab](matlab.png)
 
-* Download Matlab Source
-* Download Example Log File
+* [Download Matlab Source](https://ucl-vr.github.io/ubiq/files/Application_Log.m)
+* [Download Example Log File](https://ucl-vr.github.io/ubiq/files/Application_Log.json)
