@@ -159,11 +159,6 @@ url = "/docs/interaction/"
   url = "/privacy-policy/"
   weight = 20
 
-[[footer]]
-  name = "Code of Conduct"
-  url = "/docs/contributing/code-of-conduct/"
-  weight = 30
-
 # [[footer]]
 #   name = "Open Collective"
 #   url = "https://opencollective.com/doks"
