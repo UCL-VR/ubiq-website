@@ -19,9 +19,9 @@ The main considerations of Object Ids are the practices for generating UUIds, co
 
 ### Collision Probability
 
-Each client must be able to generate new Ids independently, to avoid dependencies on a server in peer-to-peer situations, and to avoid introducing deadlocks with the Unity programming model (such as needing a server to respond before all Start() calls can finish).
+Each client must be able to generate new Ids independently, to avoid dependencies on a server in peer-to-peer situations, and to avoid introducing deadlocks with the Unity programming model (such as needing a server to respond before all `Start()` calls can finish).
 
-The probability of collisions between two independently well-generated identifiers is the Birthday Problem. The probability of a collision is given by,
+The probability of collisions between two independently well-generated identifiers is the *Birthday Problem*. The probability of a collision is given by,
 
 ![formula](formula.png)
 
@@ -29,9 +29,9 @@ On regular desktops, it is not possible to compute this for the typical numbers 
 
 * {{< highlight go >}}p = 1 - exp(-(n^2)/(2*(2^b))){{< /highlight >}}
 
-As the figure below shows, the probability of collisions depends on the number of objects in the scenario n, as well as the identifier length b (in bits). In Ubiq, the "scenario" is typically a room.
+As the figure below shows, the probability of collisions depends on the number of objects in the scenario `n`, as well as the identifier length `b` (in bits). In Ubiq, the "scenario" is typically a room.
 
-There are no rules defining acceptable chances of collisions. For example, OAuth 2 specifies a probability of less than 10e-160, which is not achievable even by 128-bit UUIDs.
+There are no rules defining acceptable chances of collisions. For example, OAuth 2 specifies a probability of less than `10e-160`, which is not achievable even by 128-bit UUIDs.
 
 In the case of a typical Ubiq room, which due to voice chat limitations can support approximately 25 users, a 32 bit value would probably be adequate. The concept of a Room in Ubiq can change depending on how it is used however, so Ubiq tries to avoid making assumptions about the potential collision space. If rooms were considered to be floating regions, for example, then the number of potential users could be much higher.
 
@@ -51,7 +51,7 @@ To make a good identifier, best practice is to use as many data sources as possi
 
 ### Identifiers and Bandwidth
 
-A motivation for minimising id size is to reduce overhead. In a packet sending a Vector3 a 16 byte (a 128-bit UUID) overhead for the Id would have an overhead of 133% without even the Component Id. Though, on modern networks even a large relative overheads may not be problems so long as the total packet size is low. IPV6, for example, has a 40 byte header alone.
+A motivation for minimising id size is to reduce overhead. In a packet sending a `Vector3` a 16 byte (a 128-bit UUID) overhead for the Id would have an overhead of 133% without even the Component Id. Though, on modern networks even a large relative overheads may not be problems so long as the total packet size is low. IPV6, for example, has a 40 byte header alone.
 
 That is, reducing bandwidth by reducing identifier size is unlikely to be an optimal methodology. It should be expected that Ubiq header sizes increase over time, rather than decrease. Since Ubiq is based on a set of point-to-point connections, future works could consider techniques such as asymmetrical per-connection aliases to optimise bandwidth.
 
@@ -59,7 +59,7 @@ That is, reducing bandwidth by reducing identifier size is unlikely to be an opt
 
 #### Size
 
-Currently, Object Ids are represented by 64 bit numbers. This is because the collision probability for this length is very low for scenarios anticipated by Ubiq in the near future, but it is still easy to handle; 32 bit is too small, while 128 bit would require explicit serialisation/deserialisation, hashing and equality comparisons. 64 bit numbers can be stored in a long and nowadays even mobile platforms use 64 bit processors.
+Currently, Object Ids are represented by 64 bit numbers. This is because the collision probability for this length is very low for scenarios anticipated by Ubiq in the near future, but it is still easy to handle; 32 bit is too small, while 128 bit would require explicit serialisation/deserialisation, hashing and equality comparisons. 64 bit numbers can be stored in a `long` and nowadays even mobile platforms use 64 bit processors.
 
 ### Unique Ids in Unity
 

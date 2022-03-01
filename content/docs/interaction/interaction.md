@@ -13,7 +13,7 @@ weight: 10
 toc: true
 ---
 
-Ubiq includes a straightforward XR interaction framework. This supports high level actions such as Using and Grasping 2D and 3D objects, as well as interacting with the [Unity UI system](https://docs.unity3d.com/Manual/com.unity.ugui.html).
+Ubiq includes a straightforward XR interaction framework. This supports high level actions such as *Using* and *Grasping* 2D and 3D objects, as well as interacting with the [Unity UI system](https://docs.unity3d.com/Manual/com.unity.ugui.html).
 
 Ubiq is not dependent on its own interaction system, and it is expected users may utilise the [Unity XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@1.0/manual/index.html), [MRTK](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/mrtk-getting-started), [VRTK](https://vrtoolkit.readme.io/) or another system for advanced functionality.
 

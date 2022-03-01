@@ -27,9 +27,9 @@ A sample log file is shown below.
 ]
 {{< /highlight >}}
 
-In this example, two peers - a desktop PC (Unity Editor) and an Oculus Quest - join a room. The NetworkScene and VoipPeerConnectionManager both log events. To collect these logs, a new LogCollector was added to a new GameObject and the Start Collection button pressed.
+In this example, two peers - a desktop PC (Unity Editor) and an Oculus Quest - join a room. The `NetworkScene` and `VoipPeerConnectionManager` both log events. To collect these logs, a new `LogCollector` was added to a new `GameObject` and the *Start Collection* button pressed.
 
-Some Json members are defined by the Logger type. For example, the ContextLogger writes the sceneid and objectid of the context passed to it on creation. The arg members correspond to those passed to the Log() method.
+Some Json members are defined by the `Logger` type. For example, the `ContextLogger` writes the `sceneid` and `objectid` of the context passed to it on creation. The `arg` members correspond to those passed to the `Log()` method.
 
 ## Python
 
@@ -47,14 +47,14 @@ Structured event logs are amenable to being viewed in a table. Microsoft Excel P
 
 To do this:
 
-1. Open a new Workbook
-2. From the Data tab, choose Get Data -> From File -> From Json
-3. Open the log file, for example Application_log_2021-04-23-10-56-03_0.json
-4. Select the List header and click Convert To Table. This will instruct Excel to treat each entry as a row.
-5. Leave the Default Values in place and Click OK. The View will now appear as a Column.
-6. Use the button in the top right to add the Expand Column step. This will split each record into a set of columns. Make sure to click Load More... if visible to ensure you get every possible field in the table.
-7. Click OK
-8. Click Close & Load to build your table.
+1. Open a new `Workbook`
+2. From the `Data` tab, choose `Get Data` -> `From File` -> `From Json`
+3. Open the log file, for example `Application_log_2021-04-23-10-56-03_0.json`
+4. Select the List header and click `Convert To Table`. This will instruct Excel to treat each entry as a row.
+5. Leave the Default Values in place and Click `OK`. The `View` will now appear as a `Column`.
+6. Use the button in the top right to add the `Expand Column` step. This will split each record into a set of columns. Make sure to click `Load More...` if visible to ensure you get every possible field in the table.
+7. Click `OK`
+8. Click `Close & Load` to build your table.
 
 You can now order by Ticks, and filter columns such as Events.
 

@@ -27,7 +27,7 @@ The expected programming model is that Components implement send and recieve fun
 
 Ubiq closely matches Unity's programming model. Since user code is placed in Components in Unity, networked objects in Ubiq are also Unity Components.
 
-Ubiq addresses have two elements: Object Id and Component Id. Object Id is analogous to the GameObject and Component Id is analgous to the Component script Type. Messages are only delivered between instances that have both the same Object Id and Component Id.
+Ubiq addresses have two elements: Object Id and Component Id. Object Id is analogous to the GameObject and Component Id is analgous to the Component script Type. Messages are only delivered between instances that have both the same Object Id *and* Component Id.
 
 This model allows complete seperation between the code that spawns and destroys Objects and the Components that make up those Objects. When an Object is created, only one identity needs to be generated and communicated, and instances of Components on different Objects don't need to disambiguate between eachother.
 

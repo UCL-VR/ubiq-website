@@ -15,11 +15,11 @@ toc: true
 
 ## Heartbeat
 
-RoomClient instances will ping the RoomServer at a 1 Hz. If they do not receive a response after 5 seconds, they consider the server to have timed out, and will notify the user.
+`RoomClient` instances will ping the RoomServer at a 1 Hz. If they do not receive a response after 5 seconds, they consider the server to have timed out, and will notify the user.
 
 ## Timeouts
 
-If a client drops a connection to a server, the server will inform all other peers by emitting OnPeerRemoved.
+If a client drops a connection to a server, the server will inform all other peers by emitting `OnPeerRemoved`.
 
 The server will only remove a client when the underlying TCP connection has been closed. Until this time the client may re-appear.
 
@@ -27,4 +27,4 @@ If a client connection breaks without shutting down cleanly, there may be a dela
 
 An easy way for Components to handle this case is to ensure they are created under a Peer's Avatar, in which case they will be enabled and disabled with the Avatar.
 
-RoomClient instances do not necessarily control the connections to RoomServer and so cannot detect if these are lost. RoomClient instances ping the RoomServer routinely and if they do not get a response after a set time, will disconnect the connections they are responsible before and consider the room left.
+`RoomClient` instances do not necessarily control the connections to `RoomServer` and so cannot detect if these are lost. `RoomClient` instances ping the `RoomServer` routinely and if they do not get a response after a set time, will disconnect the connections they are responsible before and consider the room left.

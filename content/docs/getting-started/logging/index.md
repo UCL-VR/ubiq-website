@@ -156,10 +156,10 @@ The Entries count will increase, and a User Log file will appear in the default 
 
 To find out more about the logging, see the [Logging](/docs/logging/introduction) section in the Advanced topics.
 
-Log events can be generated from user actions, but also other external events, or at a regular frequency (e.g. to log the Transform of dynamic objects)
+Log events can be generated from user actions, but also other external events, or at a regular frequency (e.g. to log the `Transform` of dynamic objects)
 
-In this example, the `LogCollector` was in the scene that went into the Standalone Build, but this is not necessary. Only one Peer needs a LogCollector to collect logs from all Peers. The LogCollector does not have to be next to a LogManager. The LogCollector does not even need a LogManager in the NetworkScene. If the collection is not started, a LogCollector has no effect.
+In this example, the `LogCollector` was in the scene that went into the Standalone Build, but this is not necessary. Only one Peer needs a `LogCollector` to collect logs from all Peers. The `LogCollector` does not have to be next to a `LogManager`. The `LogCollector` does not even need a `LogManager` in the `NetworkScene`. If the collection is not started, a `LogCollector` has no effect.
 
-Log Collectors can even be added at runtime. To see this, re-create the Standalone Build, but with the LogCollector removed. Follow the steps above, but when in the Editor after joining the Room, add a new LogCollector at runtime, then click Start Collection. The logs will be collected exactly as before.
+Log Collectors can even be added at runtime. To see this, re-create the Standalone Build, but with the `LogCollector` removed. Follow the steps above, but when in the Editor after joining the Room, add a new `LogCollector` at runtime, then click *Start Collection*. The logs will be collected exactly as before.
 
-Collection can also be started programmatically, in addition to clicking Start Collection. This allows experiment code to start collection other ways, including in Standalone builds.
+Collection can also be started programmatically, in addition to clicking *Start Collection*. This allows experiment code to start collection other ways, including in Standalone builds.
