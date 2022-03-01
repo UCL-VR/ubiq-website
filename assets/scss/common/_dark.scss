@@ -392,6 +392,11 @@ $navbar-dark-active-color:          $link-color-dark;
   display: none !important;
 }
 
+[data-dark-mode] body .logo-invert-dark {
+  display: inline-block !important;
+  filter: invert(1);
+}
+
 [data-dark-mode] body .logo-dark {
   display: inline-block !important;
 }
