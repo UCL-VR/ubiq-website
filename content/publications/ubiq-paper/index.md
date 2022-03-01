@@ -13,6 +13,10 @@ images: []
 contributors: ["Sebastian Friston", "Ben Congdon", "David Swapp", "Lisa Izzouzi", "Klara Brandstätter", "Daniel Archer", "Otto Olkkonen", "Felix Thiel", "Anthony Steed"]
 ---
 
+{{< alert icon="📄" context="info" >}}
+This paper won the [Cyber Agent Award at VRST 2021](/blog/cyber-agent-award-at-vrst-2021)!
+{{< /alert >}}
+
 {{< details "Cite with BibTex" >}}
 {{< highlight bibtex >}}
 @inproceedings{10.1145/3489849.3489871,
@@ -34,3 +38,4 @@ contributors: ["Sebastian Friston", "Ben Congdon", "David Swapp", "Lisa Izzouzi"
 }
 {{< / highlight >}}
 {{< /details >}}
+<br>

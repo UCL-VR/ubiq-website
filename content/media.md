@@ -7,4 +7,4 @@ draft: true
 images: []
 ---
 
-## Visual materials
+Coming soon!

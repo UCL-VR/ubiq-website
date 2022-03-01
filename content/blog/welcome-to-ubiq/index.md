@@ -2,8 +2,8 @@
 title: "Welcome to Ubiq"
 description: "A Unity networking library for research, teaching and development, maintained by the Virtual Environments and Computer Graphics group at UCL."
 lead: "A Unity networking library for research, teaching and development, maintained by the Virtual Environments and Computer Graphics group at UCL."
-date: 2022-02-21T09:19:42+01:00
-lastmod: 2022-02-21T09:19:42+01:00
+date: 2021-03-26T09:19:42+01:00
+lastmod: 2021-03-26T09:19:42+01:00
 draft: false
 weight: 50
 images: []
