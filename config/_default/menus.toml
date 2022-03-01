@@ -5,22 +5,64 @@
   url = "/docs/getting-started/"
 
 [[docs]]
-  name = "Nexus"
+  name = "Server"
   weight = 20
+  identifier = "server"
+  url = "/docs/server/"
+
+[[docs]]
+  name = "Nexus"
+  weight = 30
   identifier = "nexus"
   url = "/docs/nexus/"
 
 [[docs]]
-  name = "Advanced"
-  weight = 30
-  identifier = "advanced"
-  url = "/docs/advanced/"
+name = "Interaction"
+weight = 40
+identifier = "interaction"
+url = "/docs/interaction/"
 
 [[docs]]
-  name = "Extensions"
-  weight = 40
-  identifier = "extensions"
-  url = "/docs/extensions/"
+  name = "Logging"
+  weight = 50
+  identifier = "logging"
+  url = "/docs/logging/"
+
+[[docs]]
+  name = "Messaging"
+  weight = 60
+  identifier = "messaging"
+  url = "/docs/messaging/"
+
+[[docs]]
+  name = "WebRtc"
+  weight = 70
+  identifier = "webrtc"
+  url = "/docs/webrtc/"  
+
+[[docs]]
+  name = "Servers and Rooms"
+  weight = 80
+  identifier = "servers-and-rooms"
+  url = "/docs/servers-and-rooms/"
+
+[[docs]]
+  name = "Async Design Patterns"
+  weight = 90
+  identifier = "async-design-patterns"
+  url = "/docs/async-design-patters/"
+
+[[docs]]
+  name = "Packaging"
+  weight = 100
+  identifier = "packaging"
+  url = "/docs/packaging/"
+
+[[docs]]
+  name = "Meta"
+  weight = 110
+  identifier = "meta"
+  url = "/docs/meta/" 
 
 [[docs]]
   name = "Programming"
@@ -29,26 +71,14 @@
   url = "/docs/programming/"
 
 [[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
-
-[[docs]]
   name = "Development"
   weight = 70
   identifier = "development"
   url = "/docs/development/"
-  
-[[docs]]
-  name = "Meta"
-  weight = 80
-  identifier = "meta"
-  url = "/docs/meta/"
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/getting-started/getting-ubiq/"
   weight = 20
 
 [[main]]
