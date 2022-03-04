@@ -1,6 +1,6 @@
 ---
 name: "Communication update 💬"
-about: Suggest a communication update for Doks
+about: Suggest a communication update for Ubiq
 
 ---
 

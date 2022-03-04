@@ -20,21 +20,16 @@ twitterCreator = ""
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
+schemaName = "Ubiq"
 schemaAuthor = "Nels Numan"
-schemaAuthorTwitter = "https://twitter.com/nelsnuman"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/nsalminen/"
-schemaAuthorGitHub = "https://github.com/nsalminen"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "images/logos/ubiq-logo.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
-schemaTwitter = ""
-schemaLinkedIn = ""
-schemaGitHub = ""
+schemaImage = "images/banner.png"
+schemaImageWidth = 1826
+schemaImageHeight = 874
+schemaGitHub = "https://github.com/UCL-VR/ubiq"
 schemaSection = "blog"
 
 ## Sitelinks Search Box

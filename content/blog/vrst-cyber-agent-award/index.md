@@ -14,4 +14,4 @@ contributors: ["Sebastian Friston", "Ben Congdon", "David Swapp", "Lisa Izzouzi"
 More information on the publication that received the award can be found [here](/publications/ubiq-paper).
 {{< /alert >}}
 
-![questionnaire](award.png)
+![Award certificate](award.png)

@@ -25,7 +25,7 @@
   package = "netlify-plugin-submit-sitemap"
 
 	[plugins.inputs]
-    baseUrl = "https://getdoks.org"
+    baseUrl = "https://ubiq.online"
     sitemapPath = "/sitemap.xml"
     providers = [
       "google",

@@ -1,6 +1,6 @@
 ---
 name: "Content update 📄"
-about: Suggest a content update for Doks
+about: Suggest a content update for Ubiq
 
 ---
 

@@ -45,7 +45,7 @@ function inputFocus(e) {
 if (document.querySelector('#search') !== null) {
   docsearch({
     apiKey: '978789745e8a1cf3e9a3f0fa321dbdb9',
-    indexName: 'getdoks',
+    indexName: 'ubiq-website',
     inputSelector: '#search',
     debug: false,
   });
