@@ -28,7 +28,7 @@ The schedule of this tutorial is as follows.
 - Part 2: Sunday, March 13, 10:00 - 11:30, **NZDT UTC+13**
 
 {{< alert icon="🕗" context="warning" >}}
-Note: these times are in *New Zealand Daylight Time (UTC+13)*. [(info)](https://ieeevr.org/2022/program/tutorials/#Ubiq) <br>
+Click [here](https://www.timeanddate.com/worldclock/converter.html?iso=20220312T190000&p1=22&p2=136&p3=307&p4=55&p5=4672&p6=224&p7=867) for the tutorial starting time in your local timezone. <br>
 {{< /alert >}}
 <br>
 During the tutorial, the following topics are covered.
@@ -41,7 +41,7 @@ During the tutorial, the following topics are covered.
 | _Break_                                                 |                    09:30 (UTC+13) |
 | Your First Ubiq Application (Congdon)                   |                    10:00 (UTC+13) |
 | Where to Go Next <br> (Izzouzi, Brandstätter, Friston, Congdon, Numan) |     10:45 (UTC+13) |
-| Questions (all presenters)                              |                    11:15 (UTC+13) |
+| Q&A (all presenters)                                    |                    11:15 (UTC+13) |
 { .table-striped}
 
 ## Presenter biographies
