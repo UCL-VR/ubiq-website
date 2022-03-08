@@ -7,7 +7,7 @@ lastmod: 2022-02-22T09:19:42+01:00
 draft: false
 weight: 50
 images: []
-contributors: ["Nels Numan"]
+contributors: ["Anthony Steed", "Sebastian Friston", "Ben Congdon", "Lisa Izzouzi", "Klara Brandstätter", "Nels Numan"]
 ---
 
 ## Abstract
@@ -36,11 +36,11 @@ During the tutorial, the following topics are covered.
 | Topic                                                   | Start Time                        |
 |---------------------------------------------------------|----------------------------------:|
 | Introduction and Overview (_all presenters_)            |                    08:00 (UTC+13) |
-| General Overview of Social VR Platforms (Anthony Steed) |                    08:15 (UTC+13) |
-| Overview of Ubiq's Structure (Sebastian Friston)        |                    09:00 (UTC+13) |
+| General Overview of Social VR Platforms (Steed)         |                    08:15 (UTC+13) |
+| Overview of Ubiq's Structure (Friston)                  |                    09:00 (UTC+13) |
 | _Break_                                                 |                    09:30 (UTC+13) |
-| Your First Ubiq Application (Ben Congdon)               |                    10:00 (UTC+13) |
-| Where to go next (...)                                  |                    10:45 (UTC+13) |
+| Your First Ubiq Application (Congdon)                   |                    10:00 (UTC+13) |
+| Where to Go Next <br> (Izzouzi, Brandstätter, Friston, Congdon, Numan) |     10:45 (UTC+13) |
 | Questions (all presenters)                              |                    11:15 (UTC+13) |
 { .table-striped}
 
