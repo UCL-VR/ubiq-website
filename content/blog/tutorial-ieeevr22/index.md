@@ -44,7 +44,7 @@ During the tutorial, the following topics are covered.
 | Q&A (all presenters)                                    |                    11:15 (UTC+13) |
 { .table-striped}
 
-## Presenter biographies
+## Presenter Biographies
 **Anthony Steed** is Head of the Virtual Environments and Computer Graphics group in the Department of Computer Science at University College London. He has over 25 years’ experience in developing effective immersive experiences. While his early work focussed on the engineering of displays and software, more recently it has focussed on user engagement in collaborative and telepresent scenarios. He received the IEEE VGTC’s 2016 Virtual Reality Technical Achievement Award.  Recently he was a Visiting Researcher at Microsoft Research, Redmond and an Erskine Fellow at the Human Interface Technology Laboratory in Christchurch, New Zealand.
 
 **Sebastian Friston** received his EngD from University College London in 2017. He is currently a Research Associate in the Virtual Environments and Computer Graphics group at University College London. His work has received the IEEE VR Best Dissertation Award (2018). His research interests are in how to build high fidelity virtual worlds, specifically the problems of rendering and networking. His most recent work is on sharing immersive physical simulations, and the social VR platform Ubiq
