@@ -13,11 +13,36 @@ contributors: ["Nels Numan"]
 ## Abstract
 One of the most promising applications of consumer virtual reality technology is its use for remote collaboration. A very wide variety of social virtual reality (SVR) applications are now available; from competitive games amongst small numbers of players; through to conference-like setups supporting dozens of visitors. Indeed many participants at IEEE Virtual Reality 2022 will be experiencing at least some of the conference through a SVR application. The implementations strategies of different SVR applications are very diverse, with few standards or conventions to follow. There is an urgent need for researchers to be able to develop and deploy test systems so as to facilitate a range of research from new protocols and interaction techniques for SVRs through to multi-participant experiments on the impact of avatar appearance. This tutorial will explain the key concepts behind SVR software and introduce Ubiq, an open source (Apache licence) platform for developing your own SVR applications.
 
-{{< alert icon="👉" context="info" >}}
-Attend this tutorial by registering for the <a href="https://ieeevr.org/2022/attend/registration/">IEEE VR 2022 conference</a>.
+{{< alert icon="🎥" context="info" >}}
+Information on how to follow this tutorial will be posted here. You can attend this tutorial by registering for the <a href="https://ieeevr.org/2022/attend/registration/">IEEE VR 2022 conference</a>.
+{{< /alert >}}
+
+{{< alert icon="💬" context="success" >}}
+While the tutorial is live, please post any questions to <a href="https://ieeevr.org/2022/">the Discord channel</a> of the conference.
 {{< /alert >}}
 
 ## Schedule
+
+The schedule of this tutorial is as follows. 
+- Part 1: Sunday, March 13, 8:00 - 9:30, **NZDT UTC+13**<br>
+- Part 2: Sunday, March 13, 10:00 - 11:30, **NZDT UTC+13**
+
+{{< alert icon="🕗" context="warning" >}}
+Note: these times are in *New Zealand Daylight Time (UTC+13)*. [(info)](https://ieeevr.org/2022/program/tutorials/#Ubiq) <br>
+{{< /alert >}}
+<br>
+During the tutorial, the following topics are covered.
+
+| Topic                                                   | Start Time                        |
+|---------------------------------------------------------|----------------------------------:|
+| Introduction and Overview (_all presenters_)            |                    08:00 (UTC+13) |
+| General Overview of Social VR Platforms (Anthony Steed) |                    08:15 (UTC+13) |
+| Overview of Ubiq's Structure (Sebastian Friston)        |                    09:00 (UTC+13) |
+| _Break_                                                 |                    09:30 (UTC+13) |
+| Your First Ubiq Application (Ben Congdon)               |                    10:00 (UTC+13) |
+| Where to go next (...)                                  |                    10:45 (UTC+13) |
+| Questions (all presenters)                              |                    11:15 (UTC+13) |
+{ .table-striped}
 
 ## Presenter biographies
 **Anthony Steed** is Head of the Virtual Environments and Computer Graphics group in the Department of Computer Science at University College London. He has over 25 years’ experience in developing effective immersive experiences. While his early work focussed on the engineering of displays and software, more recently it has focussed on user engagement in collaborative and telepresent scenarios. He received the IEEE VGTC’s 2016 Virtual Reality Technical Achievement Award.  Recently he was a Visiting Researcher at Microsoft Research, Redmond and an Erskine Fellow at the Human Interface Technology Laboratory in Christchurch, New Zealand.
