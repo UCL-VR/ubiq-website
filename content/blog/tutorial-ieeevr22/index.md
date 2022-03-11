@@ -14,11 +14,11 @@ contributors: ["Anthony Steed", "Sebastian Friston", "Ben Congdon", "Lisa Izzouz
 One of the most promising applications of consumer virtual reality technology is its use for remote collaboration. A very wide variety of social virtual reality (SVR) applications are now available; from competitive games amongst small numbers of players; through to conference-like setups supporting dozens of visitors. Indeed many participants at IEEE Virtual Reality 2022 will be experiencing at least some of the conference through a SVR application. The implementations strategies of different SVR applications are very diverse, with few standards or conventions to follow. There is an urgent need for researchers to be able to develop and deploy test systems so as to facilitate a range of research from new protocols and interaction techniques for SVRs through to multi-participant experiments on the impact of avatar appearance. This tutorial will explain the key concepts behind SVR software and introduce Ubiq, an open source (Apache licence) platform for developing your own SVR applications.
 
 {{< alert icon="🎥" context="info" >}}
-Information on how to follow this tutorial will be posted here. You can attend this tutorial by registering for the <a href="https://ieeevr.org/2022/attend/registration/">IEEE VR 2022 conference</a>.
+You can follow this tutorial through this <a href="https://events.zoom.us/ev/AMhPE42qSa3t0DDhNEdVpwntLRhotRRpkXfFrCuFaDN7WNQXQHbMvw2fnfGgpsnKf27gWYU" target="_blank">Zoom link</a> (*only accessible for registered conference attendees*).
 {{< /alert >}}
 
 {{< alert icon="💬" context="success" >}}
-While the tutorial is live, please post your questions to the <a href="https://discord.gg/STCgpaWg">IEEE VR 2022 Discord server</a> (*only accessible for registered conference attendees*).
+While the tutorial is live, please post your questions to the <a href="https://discordapp.com/channels/842181663248482334/951008715941752873" target="_blank">Discord channel</a> IEEE VR 2022 Discord server</a> (*only accessible for registered conference attendees*).
 {{< /alert >}}
 
 ## Schedule
@@ -66,10 +66,10 @@ Try a demo during the tutorial by running Ubiq as described below!
 
 Upon launch, you will be automatically connected to a lobby with spare spaces and linked to other users via voice chat.
 
-Please contact us over the <a href="https://discord.gg/STCgpaWg">IEEE VR 2022 Discord server</a> if there are any issues using or installing the apps.
+Please contact us over the tutorial's <a href="https://discordapp.com/channels/842181663248482334/951008715941752873" target="_blank">Discord channel</a> if there are any issues using or installing the apps.
 
 {{< alert icon="🕗" context="warning" >}}
-Please note - these apps will not be monitored outside of the workshop time.
+Note: these apps will not be monitored outside of the tutorial time.
 {{< /alert >}}
 
 
@@ -90,7 +90,7 @@ Please note - these apps will not be monitored outside of the workshop time.
 - *Grip* to **grab items in the scene**
 - *Trigger* to **use items**
 
-{{< alert icon="🕗" context="success" >}}
+{{< alert icon="😃" context="success" >}}
 Tip: Try grabbing and using the boxes in the demo environment!
 {{< /alert >}}
 
