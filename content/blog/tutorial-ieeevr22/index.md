@@ -18,7 +18,7 @@ Information on how to follow this tutorial will be posted here. You can attend t
 {{< /alert >}}
 
 {{< alert icon="💬" context="success" >}}
-While the tutorial is live, please post any questions to <a href="https://ieeevr.org/2022/">the Discord channel</a> of the conference.
+While the tutorial is live, please post your questions to the <a href="https://discord.gg/STCgpaWg">IEEE VR 2022 Discord channel</a> (*only accessible for registered conference attendees*).
 {{< /alert >}}
 
 ## Schedule
