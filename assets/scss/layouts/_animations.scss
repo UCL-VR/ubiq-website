@@ -14,6 +14,14 @@
   transform: translate3d(0, 0, 0);
   text-align: center;
   opacity: 1;
+
+  svg {
+    filter: none;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+  }
 }
 
 @include media-breakpoint-up(lg) {
@@ -36,24 +44,30 @@
   }
 
   #animated-avatar-left {
-    transform: scale(4.5) translateX(50px);
-    width: 40px;
+    width: 200px;
+
+    svg {
+      transform: scale(4.5) translateX(50px);
+    }
   }
 
   #animated-avatar-right {
-    transform: scale(4.5) translateX(-30px);
-    width: 40px;
+    width: 200px;
+
+    svg {
+      transform: scale(2) translateX(-30px);
+    }
   }
 }
 
-@include media-breakpoint-down(md) {
-  #animated-avatar-left {
-    transform: scale(4.5) translateX(25px);
-    width: 40px;
-  }
+// @include media-breakpoint-down(md) {
+//   #animated-avatar-left svg {
+//     transform: scale(4.5) translateX(25px);
+//     width: 40px;
+//   }
 
-  #animated-avatar-right {
-    transform: scale(4.5) translateX(-25px);
-    width: 40px;
-  }
-}
+//   #animated-avatar-right svg {
+//     transform: scale(4.5) translateX(-25px);
+//     width: 40px;
+//   }
+// }

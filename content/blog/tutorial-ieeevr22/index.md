@@ -18,7 +18,7 @@ Information on how to follow this tutorial will be posted here. You can attend t
 {{< /alert >}}
 
 {{< alert icon="💬" context="success" >}}
-While the tutorial is live, please post your questions to the <a href="https://discord.gg/STCgpaWg">IEEE VR 2022 Discord channel</a> (*only accessible for registered conference attendees*).
+While the tutorial is live, please post your questions to the <a href="https://discord.gg/STCgpaWg">IEEE VR 2022 Discord server</a> (*only accessible for registered conference attendees*).
 {{< /alert >}}
 
 ## Schedule
@@ -43,6 +43,56 @@ During the tutorial, the following topics are covered.
 | Where to Go Next <br> (Izzouzi, Brandstätter, Friston, Congdon, Numan) |     10:45 (UTC+13) |
 | Q&A (all presenters)                                    |                    11:15 (UTC+13) |
 { .table-striped}
+
+## Try Ubiq
+
+Try a demo during the tutorial by running Ubiq as described below!
+
+<div class="card">
+    <div class="card-body">
+        <div class="card-title mt-4 h5">For <em>Desktop Browsers</em></div>
+        <p>Click the button below or go to <a href="https://nexus.cs.ucl.ac.uk/" target="_blank">nexus.cs.ucl.ac.uk</a>.</p>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://nexus.cs.ucl.ac.uk/" role="button" target="_blank">Launch in WebXR</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="card-title mt-4 h5">For <em>Meta Quest</em></div>
+        <p>Download an .apk to install to your Meta Quest by clicking the button below. <em>Requires a developer account for sideloading with <a href="https://sidequestvr.com/" target="_blank">SideQuest</a></em>.</p>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="/apks/ieeevr22-demo.apk" role="button" download>Download .apk</a>
+    </div>
+</div>
+
+Upon launch, you will be automatically connected to a lobby with spare spaces and linked to other users via voice chat.
+
+Please contact us over the <a href="https://discord.gg/STCgpaWg">IEEE VR 2022 Discord server</a> if there are any issues using or installing the apps.
+
+{{< alert icon="🕗" context="warning" >}}
+Please note - these apps will not be monitored outside of the workshop time.
+{{< /alert >}}
+
+
+#### Controls
+
+**Desktop controls**
+- *WASD keys* to **move around**
+- *Hold right click and move the mouse* to **look around**
+- *Left click* to **interact with the UI**
+- *Middle mouse button* to **grab items in the scene**
+- *Left click* to **'use' the items**
+
+**Meta Quest controls**
+- *Left stick* to **fly**
+- *Hold and release primary button* to **teleport**
+- *Swipe stick* to **snap-turn**
+- *Point and use the trigger* to **interact with the UI**
+- *Grip* to **grab items in the scene**
+- *Trigger* to **use items**
+
+{{< alert icon="🕗" context="success" >}}
+Tip: Try grabbing and using the boxes in the demo environment!
+{{< /alert >}}
 
 ## Presenter Biographies
 **Anthony Steed** is Head of the Virtual Environments and Computer Graphics group in the Department of Computer Science at University College London. He has over 25 years’ experience in developing effective immersive experiences. While his early work focussed on the engineering of displays and software, more recently it has focussed on user engagement in collaborative and telepresent scenarios. He received the IEEE VGTC’s 2016 Virtual Reality Technical Achievement Award.  Recently he was a Visiting Researcher at Microsoft Research, Redmond and an Erskine Fellow at the Human Interface Technology Laboratory in Christchurch, New Zealand.
