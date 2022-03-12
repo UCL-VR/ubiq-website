@@ -36,38 +36,48 @@
 
 @include media-breakpoint-down(lg) {
   .avatar-text-container {
-    margin-top: 4em;
+    margin-top: 3em;
   }
 
   .avatar-animation-container {
-    margin-top: 1.5em;
+    margin-top: 1em;
   }
 
   #animated-avatar-left {
     width: 200px;
+    transform: translateX(170px);
 
     svg {
-      transform: scale(4.5) translateX(50px);
+      transform: scale(1.2);
     }
   }
 
   #animated-avatar-right {
     width: 200px;
+    transform: translateX(-220px);
 
     svg {
-      transform: scale(2) translateX(-30px);
+      transform: scale(1.2);
     }
   }
 }
 
-// @include media-breakpoint-down(md) {
-//   #animated-avatar-left svg {
-//     transform: scale(4.5) translateX(25px);
-//     width: 40px;
-//   }
+@include media-breakpoint-down(md) {
+  #animated-avatar-left {
+    width: 200px;
+    transform: translateX(40px);
 
-//   #animated-avatar-right svg {
-//     transform: scale(4.5) translateX(-25px);
-//     width: 40px;
-//   }
-// }
+    svg {
+      transform: scale(1.2);
+    }
+  }
+
+  #animated-avatar-right {
+    width: 200px;
+    transform: translateX(-200px);
+
+    svg {
+      transform: scale(1.2);
+    }
+  }
+}
