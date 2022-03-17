@@ -14,34 +14,30 @@ contributors: ["Anthony Steed", "Sebastian Friston", "Ben Congdon", "Lisa Izzouz
 One of the most promising applications of consumer virtual reality technology is its use for remote collaboration. A very wide variety of social virtual reality (SVR) applications are now available; from competitive games amongst small numbers of players; through to conference-like setups supporting dozens of visitors. Indeed many participants at IEEE Virtual Reality 2022 will be experiencing at least some of the conference through a SVR application. The implementations strategies of different SVR applications are very diverse, with few standards or conventions to follow. There is an urgent need for researchers to be able to develop and deploy test systems so as to facilitate a range of research from new protocols and interaction techniques for SVRs through to multi-participant experiments on the impact of avatar appearance. This tutorial will explain the key concepts behind SVR software and introduce Ubiq, an open source (Apache licence) platform for developing your own SVR applications.
 
 {{< alert icon="🎥" context="info" >}}
-You can follow this tutorial through this <a href="https://events.zoom.us/ev/AMhPE42qSa3t0DDhNEdVpwntLRhotRRpkXfFrCuFaDN7WNQXQHbMvw2fnfGgpsnKf27gWYU" target="_blank">Zoom link</a> (*only accessible for registered conference attendees*).
-{{< /alert >}}
-
-{{< alert icon="💬" context="success" >}}
-While the tutorial is live, please post your questions to the <a href="https://discordapp.com/channels/842181663248482334/951008715941752873" target="_blank">Discord channel</a> IEEE VR 2022 Discord server</a> (*only accessible for registered conference attendees*).
+We would like to thank the attendees for joining the tutorial. The recorded tutorial will soon be posted to this page. Please feel free to reach out to us through <a href="mailto:ubiq@cs.ucl.ac.uk" target="_blank">e-mail</a> (ubiq@cs.ucl.ac.uk).
 {{< /alert >}}
 
 ## Schedule
 
 The schedule of this tutorial is as follows. 
-- Part 1: Sunday, March 13, 8:00 - 9:30, **NZDT UTC+13**<br>
-- Part 2: Sunday, March 13, 10:00 - 11:30, **NZDT UTC+13**
+- Part 1: Sunday, March 13 2022, 8:00 - 9:30, **NZDT UTC+13**<br>
+- Part 2: Sunday, March 13 2022, 10:00 - 11:30, **NZDT UTC+13**
 
-{{< alert icon="🕗" context="warning" >}}
+<!-- {{< alert icon="🕗" context="warning" >}}
 Click [here](https://www.timeanddate.com/worldclock/converter.html?iso=20220312T190000&p1=22&p2=136&p3=307&p4=55&p5=4672&p6=224&p7=867) for the tutorial starting time in your local timezone. <br>
-{{< /alert >}}
+{{< /alert >}} -->
 <br>
 During the tutorial, the following topics are covered.
 
-| Topic                                                   | Start Time                        |
-|---------------------------------------------------------|----------------------------------:|
-| Introduction and Overview (_all presenters_)            |                    08:00 (UTC+13) |
-| General Overview of Social VR Platforms (Steed)         |                    08:15 (UTC+13) |
-| Overview of Ubiq's Structure (Friston)                  |                    09:00 (UTC+13) |
-| _Break_                                                 |                    09:30 (UTC+13) |
-| Your First Ubiq Application (Congdon)                   |                    10:00 (UTC+13) |
-| Where to Go Next <br> (Izzouzi, Brandstätter, Friston, Congdon, Numan) |     10:45 (UTC+13) |
-| Q&A (all presenters)                                    |                    11:15 (UTC+13) |
+| Topic                                                   | Start Time                            |
+|---------------------------------------------------------|--------------------------------------:|
+| Introduction and Overview (_all presenters_)            |                    ~~08:00 (UTC+13)~~ |
+| General Overview of Social VR Platforms (Steed)         |                    ~~08:15 (UTC+13)~~ |
+| Overview of Ubiq's Structure (Friston)                  |                    ~~09:00 (UTC+13)~~ |
+| _Break_                                                 |                    ~~09:30 (UTC+13)~~ |
+| Your First Ubiq Application (Congdon)                   |                    ~~10:00 (UTC+13)~~ |
+| Where to Go Next <br> (Izzouzi, Brandstätter, Friston, Congdon, Numan) |     ~~10:45 (UTC+13)~~ |
+| Q&A (all presenters)                                    |                    ~~11:15 (UTC+13)~~ |
 { .table-striped}
 
 ## Try Ubiq
