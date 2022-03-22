@@ -54,7 +54,7 @@ copyRight = "Copyright (c) 2020-2022 UCL"
 
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 alertText = "Information on the <strong>Ubiq tutorial at IEEE VR 2022</strong> can be found <a class=\"alert-link stretched-link\" href=\"/blog/ubiq-tutorial-at-ieee-vr-2022/\">here</a>!"
 
