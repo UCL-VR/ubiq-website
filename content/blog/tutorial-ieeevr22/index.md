@@ -13,9 +13,12 @@ contributors: ["Anthony Steed", "Sebastian Friston", "Ben Congdon", "Lisa Izzouz
 ## Abstract
 One of the most promising applications of consumer virtual reality technology is its use for remote collaboration. A very wide variety of social virtual reality (SVR) applications are now available; from competitive games amongst small numbers of players; through to conference-like setups supporting dozens of visitors. Indeed many participants at IEEE Virtual Reality 2022 will be experiencing at least some of the conference through a SVR application. The implementations strategies of different SVR applications are very diverse, with few standards or conventions to follow. There is an urgent need for researchers to be able to develop and deploy test systems so as to facilitate a range of research from new protocols and interaction techniques for SVRs through to multi-participant experiments on the impact of avatar appearance. This tutorial will explain the key concepts behind SVR software and introduce Ubiq, an open source (Apache licence) platform for developing your own SVR applications.
 
-{{< alert icon="🎥" context="info" >}}
-We would like to thank the attendees for joining the tutorial. The recorded tutorial will soon be posted to this page. Please feel free to reach out to us through <a href="mailto:ubiq@cs.ucl.ac.uk" target="_blank">e-mail</a> (ubiq@cs.ucl.ac.uk).
+{{< alert context="info" >}}
+We would like to thank the attendees for joining the tutorial. Please feel free reach out to us through <a href="mailto:ubiq@cs.ucl.ac.uk" target="_blank">email</a> (ubiq@cs.ucl.ac.uk) or [Discord](https://discord.gg/cZYzdcxAAB) with any questions.
 {{< /alert >}}
+
+## Recording
+{{< youtube id="DeGOCFXAnHY" >}}
 
 ## Schedule
 
