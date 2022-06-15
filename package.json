@@ -33,7 +33,7 @@
   "devDependencies": {
     "@babel/cli": "^7.17",
     "@babel/core": "^7.17",
-    "@babel/preset-env": "^7.16",
+    "@babel/preset-env": "^7.17",
     "@docsearch/js": "^3.0.0",
     "@fullhuman/postcss-purgecss": "^4.1",
     "auto-changelog": "^2.4",
@@ -42,7 +42,7 @@
     "clipboard": "^2.0",
     "dotenv": "^16.0",
     "encoding": "^0.1.13",
-    "eslint": "^8.11",
+    "eslint": "^8.14",
     "exec-bin": "^1.0.0",
     "highlight.js": "^11.5",
     "hugo-installer": "^3.1",
@@ -54,13 +54,13 @@
     "postcss-cli": "^9.1",
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3",
-    "stylelint": "^14.6",
+    "stylelint": "^14.8",
     "stylelint-config-standard-scss": "^3.0"
   },
   "otherDependencies": {
     "hugo": "0.92.2"
   },
   "dependencies": {
-    "lottie-web": "^5.9.1"
+    "lottie-web": "^5.9.4"
   }
 }
