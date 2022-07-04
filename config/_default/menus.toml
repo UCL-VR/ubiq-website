@@ -95,6 +95,12 @@ url = "/docs/interaction/"
   name = "Publications"
   url = "/publications/"
   weight = 40
+  
+[[main]]
+  name = "Teaching"
+  weight = 40
+  url = "/teaching"
+  identifier = "teaching"
 
 [[main]]
   name = "Contact"
@@ -120,6 +126,7 @@ url = "/docs/interaction/"
   weight = 5
   identifier = "discussions"
   parent = "contact"
+ 
 
 [[social]]
   name = "GitHub"
