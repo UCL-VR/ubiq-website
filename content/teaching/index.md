@@ -3,7 +3,7 @@ title: "Teaching Materials"
 description: "Teaching materials for networked and social VR with Ubiq"
 date: 2022-06-30T14:42:25+01:00
 lastmod: 2022-06-30T14:42:25+01:00
-draft: true
+draft: false
 images: []
 ---
 
