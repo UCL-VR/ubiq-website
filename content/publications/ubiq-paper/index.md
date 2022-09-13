@@ -4,7 +4,7 @@ description: ""
 abstract: "While they have long been a subject of academic study, social virtual reality (SVR) systems are now attracting increasingly large audiences on current consumer virtual reality systems. The design space of SVR systems is very large, and relatively little is known about how these systems should be constructed in order to be usable and efficient. In this paper we present Ubiq, a toolkit that focuses on facilitating the construction of SVR systems. We argue for the design strategy of Ubiq and its scope. Ubiq is built on the Unity platform. It provides core functionality of many SVR systems such as connection management, voice, avatars, etc. However, its design remains easy to extend. We demonstrate examples built on Ubiq and how it has been successfully used in classroom teaching. Ubiq is open source (Apache License) and thus enables several use cases that commercial systems cannot."
 doi: "10.1145/3489849.3489871"
 publishedin: "VRST '21: Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology"
-codeurl: ""
+codeurl: "https://github.com/UCL-VR/ubiq"
 date: 2022-02-21T09:19:42+01:00
 lastmod: 2022-02-21T09:19:42+01:00
 draft: false
