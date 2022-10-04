@@ -16,3 +16,33 @@ One of the most promising applications of consumer virtual reality technology is
 {{< alert context="info" >}}
 More info regarding the tutorial schedule and topics is coming soon. Please feel free reach out to us through <a href="mailto:ubiq@cs.ucl.ac.uk" target="_blank">email</a> (ubiq@cs.ucl.ac.uk) or [Discord](https://discord.gg/cZYzdcxAAB) with any questions.
 {{< /alert >}}
+
+## Schedule
+
+<!-- The schedule of this tutorial is as follows. 
+- Part 1: Sunday, March 13 2022, 8:00 - 9:30, **NZDT UTC+13**<br>
+- Part 2: Sunday, March 13 2022, 10:00 - 11:30, **NZDT UTC+13** -->
+
+<!-- {{< alert icon="🕗" context="warning" >}}
+Click [here](https://www.timeanddate.com/worldclock/converter.html?iso=20220312T190000&p1=22&p2=136&p3=307&p4=55&p5=4672&p6=224&p7=867) for the tutorial starting time in your local timezone. <br>
+{{< /alert >}} -->
+<!-- <br> -->
+During the tutorial, the following topics are covered.
+
+| Topic                                                   |
+|---------------------------------------------------------|
+| Introduction and Overview                               |
+| General Overview of Social VR Platforms (Steed)         |
+| Overview of Ubiq's Structure (Friston)                  |
+| Your First Ubiq Application (Congdon)                   |
+{ .table-striped}
+<!-- | Topic                                                   | Start Time                            |
+|---------------------------------------------------------|--------------------------------------:|
+| Introduction and Overview (_all presenters_)            |                    ~~08:00 (UTC+13)~~ |
+| General Overview of Social VR Platforms (Steed)         |                    ~~08:15 (UTC+13)~~ |
+| Overview of Ubiq's Structure (Friston)                  |                    ~~09:00 (UTC+13)~~ |
+| _Break_                                                 |                    ~~09:30 (UTC+13)~~ |
+| Your First Ubiq Application (Congdon)                   |                    ~~10:00 (UTC+13)~~ |
+| Where to Go Next <br> (Izzouzi, Brandstätter, Friston, Congdon, Numan) |     ~~10:45 (UTC+13)~~ |
+| Q&A (all presenters)                                    |                    ~~11:15 (UTC+13)~~ |
+{ .table-striped} -->
