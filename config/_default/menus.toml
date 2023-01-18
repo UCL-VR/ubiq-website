@@ -78,7 +78,7 @@ url = "/docs/interaction/"
 
 [[main]]
   name = "Docs"
-  url = "/docs/getting-started/getting-ubiq/"
+  url = "https://ucl-vr.github.io/ubiq/"
   weight = 20
 
 [[main]]
