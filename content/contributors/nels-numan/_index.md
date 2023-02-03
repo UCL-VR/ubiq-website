@@ -7,4 +7,4 @@ draft: false
 images: []
 ---
 
-[@NelsNuman](https://twitter.com/nelsnuman)
+[Personal Website](https://nels.dev/)
