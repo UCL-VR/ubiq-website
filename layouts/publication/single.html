@@ -16,6 +16,9 @@
               {{ if (isset .Params "codeurl") }}
               <a class="btn btn-primary btn-lg px-4 mb-2" href="{{.Params.codeurl | absURL }}" role="button">Code</a>
               {{ end }}
+              {{ if (isset .Params "fulltext") }}
+              <a class="btn btn-primary btn-lg px-4 mb-2" href="{{.Params.fulltext }}" role="button">Full-text PDF</a>
+              {{ end }}
         </div>
       </div>
       {{ .Content }}

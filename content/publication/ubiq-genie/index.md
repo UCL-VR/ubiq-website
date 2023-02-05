@@ -9,6 +9,7 @@ draft: false
 weight: 50
 images: []
 contributors: ["Nels Numan", "Daniele Giunchi", "Ben Congdon", "Anthony Steed"]
+fulltext: "ubiq-genie.pdf"
 ---
 
 {{< alert icon="ℹ️" context="info" >}}
