@@ -13,6 +13,6 @@ fulltext: "ubiq-genie.pdf"
 ---
 
 {{< alert icon="ℹ️" context="info" >}}
-The preprint and source code for Ubiq-Genie will be posted to this page soon!
+The source code for Ubiq-Genie will be posted to this page soon!
 {{< /alert >}}
 <br>
