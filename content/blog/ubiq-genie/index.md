@@ -20,7 +20,7 @@ The integration of external (open-source) projects with social virtual reality (
 Ubiq-Genie addresses this by building on the open-source Ubiq social VR platform and provides a modular approach to server-assisted social VR applications. We present two prototypes of collaborative applications to showcase the potential of Ubiq-Genie in the context of generative AI including an embodied conversational agent based on ChatGPT and a voice-controlled texture generation method based on Stable Diffusion 2.0.
 
 {{< alert icon="📑" context="info" >}}
-More details on Ubiq-Genie incl. full descriptions of the prototypes and opportunities for future research can be found in our [paper](/publication/ubiq-genie/ubiq-genie.pdf).
+More details on Ubiq-Genie incl. full descriptions of the prototypes and opportunities for future research can be found in our [paper](/publication/ubiq-genie).
 {{< /alert >}}
 
 ### System
