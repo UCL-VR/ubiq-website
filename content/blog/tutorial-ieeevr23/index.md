@@ -25,7 +25,7 @@ The tutorial will be of value to any student, researcher or professional who wan
 
 ## Schedule
 
-During the tutorial, the following topics were covered.
+During the tutorial, the following topics were covered. The tutorial will take place on **March 25th, 2023** at **17:00 (UTC+8)**.
 
 { .table-striped }
 | Topic                                                   | Start Time                       |
