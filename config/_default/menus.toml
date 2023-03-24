@@ -80,6 +80,7 @@ url = "/docs/interaction/"
   name = "Docs"
   url = "https://ucl-vr.github.io/ubiq/"
   weight = 20
+  target = "_blank"
 
 [[main]]
   name = "Showcase"
