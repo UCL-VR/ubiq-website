@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Server on</title><link>https://ubiq.online/docs/server/</link><description>Recent content in Server on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate><atom:link href="https://ubiq.online/docs/server/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up the Server</title><link>https://ubiq.online/docs/server/server-setup/</link><pubDate>Tue, 06 Oct 2020 08:49:15 +0000</pubDate><guid>https://ubiq.online/docs/server/server-setup/</guid><description>The server code is included in the Ubiq repository.
+After checking out the code, run
+npm install in the Node directory. The server can then be started.
+node app.js</description></item></channel></rss>
