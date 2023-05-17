@@ -24,16 +24,16 @@ Ubiq-Genie addresses this by building on the open-source Ubiq social VR platform
 More details on Ubiq-Genie incl. full descriptions of the prototypes and opportunities for future research can be found in our [paper](/publication/ubiq-genie).
 {{< /alert >}}
 
+{{< alert icon="ℹ️" context="success" >}}
+The source code of Ubiq-Genie is available on [GitHub](https://github.com/UCL-VR/ubiq-genie) and is licensed under the [Apache 2.0 License](https://github.com/UCL-VR/ubiq-genie/blob/main/LICENSE.txt).
+{{< /alert >}}
+
 ### System
 ![System Diagram](SystemDiagram.png)
 
 The Ubiq-Genie architecture consists of three main components: the Unity scene, applications, and services. The Unity scene serves as the interface for VR users and communicates with a server-side component called the `ApplicationController`. The `ApplicationController` acts as a central coordination point for one or more different services and communicates with the `ServiceController` of each service. The `ServiceController` is responsible for providing a specific function and orchestrates the data flow of one or more underlying child processes through the I/O stream of the server's operating system. 
 
-We implemented several services including speech-to-text, image synthesis, conversational text synthesis, file server, and text-to-speech. The addition of new services and the creation of applications will be described in the documentation of the upcoming release of the Ubiq-Genie source code.
-
-{{< alert icon="ℹ️" context="info" >}}
-The source code of Ubiq-Genie will be posted to this page soon!
-{{< /alert >}}
+We implemented several services including speech-to-text, image synthesis, conversational text synthesis, file server, and text-to-speech. The addition of new services and the creation of applications is described on a page in the [Ubiq-Genie GitHub repo](https://github.com/UCL-VR/ubiq-genie/tree/main/Server).
 
 ### Prototype 1: Texture Generation
 
