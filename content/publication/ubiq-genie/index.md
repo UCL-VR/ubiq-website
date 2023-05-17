@@ -12,7 +12,6 @@ contributors: ["Nels Numan", "Daniele Giunchi", "Ben Congdon", "Anthony Steed"]
 fulltext: "ubiq-genie.pdf"
 ---
 
-{{< alert icon="ℹ️" context="info" >}}
-The source code of Ubiq-Genie will be posted to this page soon!
+{{< alert icon="ℹ️" context="success" >}}
+The source code of Ubiq-Genie is available on [GitHub](https://github.com/UCL-VR/ubiq-genie) and is licensed under the [Apache 2.0 License](https://github.com/UCL-VR/ubiq-genie/blob/main/LICENSE.txt).
 {{< /alert >}}
-<br>
