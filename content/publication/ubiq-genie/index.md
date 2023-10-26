@@ -12,7 +12,20 @@ contributors: ["Nels Numan", "Daniele Giunchi", "Ben Congdon", "Anthony Steed"]
 fulltext: "ubiq-genie.pdf"
 ---
 
-{{< alert icon="ℹ️" context="info" >}}
-The source code of Ubiq-Genie will be posted to this page soon!
+{{< alert icon="ℹ️" context="success" >}}
+The source code of Ubiq-Genie is available on [GitHub](https://github.com/UCL-VR/ubiq-genie) and is licensed under the [Apache 2.0 License](https://github.com/UCL-VR/ubiq-genie/blob/main/LICENSE.txt).
 {{< /alert >}}
-<br>
+
+{{< details "Cite with BibTex" >}}
+{{< highlight bibtex >}}
+@inproceedings{numanUbiqGenieLeveragingExternal2023,
+  title = {Ubiq-{{Genie}}: {{Leveraging External Frameworks}} for {{Enhanced Social VR Experiences}}},
+  booktitle = {2023 {{IEEE Conference}} on {{Virtual Reality}} and {{3D User Interfaces Abstracts}} and {{Workshops}} ({{VRW}})},
+  author = {Numan, Nels and Giunchi, Daniele and Congdon, Benjamin and Steed, Anthony},
+  year = {2023},
+  pages = {497--501},
+  location = {{Shanghai, China}},
+  doi = {10.1109/VRW58643.2023.00108},
+}
+{{< / highlight >}}
+{{< /details >}}
