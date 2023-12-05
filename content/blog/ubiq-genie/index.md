@@ -1,5 +1,5 @@
 ---
-title: "Ubiq-Genie"
+title: "Integrating Generative AI into Social VR with the Ubiq-Genie Framework"
 lead: "Leveraging External Frameworks for Enhanced Social VR Experiences"
 description: "Description of new Ubiq-Genie framework for integrating external frameworks with the Ubiq social VR platform."
 date: 2023-02-06T09:19:42+01:00
