@@ -6,7 +6,7 @@ date: 2023-12-07T10:00:00+00:00
 draft: false
 weight: 50
 images: []
-contributors: ["Sebastian Friston, Otto Olkonnen, Ben Congdon, Anthony Steed"]
+contributors: ["Sebastian Friston", "Otto Olkonnen", "Ben Congdon", "Anthony Steed"]
 ---
 
 Ubiq is logically Peer to Peer, but when communicating over the public internet the Ubiq server is used as a hub. Messages from rooms are duplicated or "fanned-out". This implementation is simple and robust, but can create a choke-point when large numbers of users congregate in one room: and this is what the paper is focused on.
