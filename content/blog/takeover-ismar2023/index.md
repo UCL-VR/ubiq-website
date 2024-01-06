@@ -2,8 +2,8 @@
 title: "Single Actor, Multiple Roles"
 description: ""
 lead: "Discover how one actor can jump among multiple avatars in the virtual environment to enhance social presence."
-date: 2023-12-14T00:00:00+00:00
-lastmod: 2023-12-14T00:00:00+00:00
+date: 2024-01-05T00:00:00+00:00
+lastmod: 2024-01-05T00:00:00+00:00
 draft: false
 weight: 50
 images: []
