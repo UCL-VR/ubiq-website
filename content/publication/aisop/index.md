@@ -15,7 +15,7 @@ doi: "10.1109/VRW62533.2024.00229"
 
 {{< details "Cite with BibTex" >}}
 {{< highlight bibtex >}}
-@inproceedings{giunchiDreamCodeVRDemocratizingBehavior2024,
+@inproceedings{gattiAIsop2024,
   title = {{AIsop}}: {{Exploring Immersive VR Storytelling Leveraging Generative AI}
   booktitle = {2024 {{IEEE Conference}} on {{Virtual Reality}} and {{3D User Interfaces Abstracts}} and {{Workshops}} ({{VRW}})},
   author = {Gatti, Elia and Giunchi, Daniele and Numan, Nels and Steed, Anthony},
