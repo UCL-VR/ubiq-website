@@ -9,7 +9,8 @@ draft: false
 weight: 50
 images: []
 contributors: ["Nels Numan", "Anthony Steed"]
-fulltext: "exploring-user-behaviour.pdf"
+pdf: "exploring-user-behaviour.pdf"
+doi: "10.1145/3562939.3565630"
 ---
 
 {{< details "Cite with BibTex" >}}

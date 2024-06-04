@@ -10,6 +10,7 @@ draft: false
 weight: 50
 images: []
 contributors: ["Anthony Steed", "Lisa Izzouzi", "Klara Brandstätter", "Sebastian Friston", "Ben Congdon", "Otto Olkkonen", "Daniele Giunchi", "Nels Numan", "David Swapp"]
+doi: "10.3389/frvir.2022.912078"
 ---
 
 {{< alert icon="ℹ️" context="info" >}}

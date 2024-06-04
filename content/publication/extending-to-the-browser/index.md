@@ -2,7 +2,7 @@
 title: "Extending the Open Source Social Virtual Reality Ecosystem to the Browser in Ubiq"
 description: ""
 abstract: "Social VR (SVR) systems are VR systems with a common subset of features facilitating unstructured social interaction. In the real world, social situations have many purposes, each with a different set of requirements, and roles its participants take - creator, moderator, performer, visitor, etc. Yet, common SVR systems typically offer only a single client to users. Even if there are versions for different platforms, there is a one-size-fits-all approach to the user experience. Consequently users need to employ workarounds or build their own functionality to support specific roles, where this is possible at all. We argue that platforms need to develop more open frameworks that support different processes and user interactions. One way to do this is through using appropriate web standards and an open messaging system in order to allow distributed clients that can leverage the strongest features of heterogeneous computing platforms. Supporting asymmetrical capabilities greatly increases the scope of supported virtual social interactions and potential use cases of SVR. We take a qualitative experimental approach to exploring cross platform support in this way, from a designers perspective. We use the open-source SDK Ubiq, and create a library that allows building Ubiq Peers using web standards and thus clients that can operate solely in a web browser or certain Javascript environments. We validate our approach by demonstrating six proof of concept demonstrators that would be difficult or impossible to achieve in most other SVR systems, and report on what we encountered for the benefit of other SVR designers."
-fulltext: "extending-the-ossvre-to-the-browser.pdf"
+pdf: "extending-the-ossvre-to-the-browser.pdf"
 publishedin: "Web3D '23: Proceedings of the 28th International ACM Conference on 3D Web Technology"
 date: 2023-10-11T00:00:00+01:00
 lastmod: 2023-10-11T00:00:00+01:00
@@ -10,6 +10,7 @@ draft: false
 weight: 50
 images: []
 contributors: ["Sebastian Friston", "Ben Congdon", "Nels Numan", "Klara Brandstätter", "Lisa Izzouzi", "Felix Thiel", "Jingyi Zhang", "Daniele Giunchi", "David Swapp", "Anthony Steed"]
+doi: "10.1145/3611314.3615903"
 ---
 
 {{< alert icon="ℹ️" context="info" >}}

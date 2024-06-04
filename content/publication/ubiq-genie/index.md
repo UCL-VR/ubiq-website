@@ -9,7 +9,9 @@ draft: false
 weight: 50
 images: []
 contributors: ["Nels Numan", "Daniele Giunchi", "Ben Congdon", "Anthony Steed"]
-fulltext: "ubiq-genie.pdf"
+pdf: "ubiq-genie.pdf"
+doi: "10.1109/VRW58643.2023.00108"
+codeurl: "https://github.com/UCL-VR/ubiq-genie"
 ---
 
 {{< alert icon="ℹ️" context="success" >}}

@@ -10,14 +10,14 @@
         <div class="card-body">
           <h4>Abstract</h4>
               <p class="lead">{{ .Params.abstract | safeHTML }}</p>
+              {{ if (isset .Params "pdf") }}
+              <a class="btn btn-primary btn-lg px-4 mb-2" href="{{.Params.pdf }}" role="button">Full-text PDF</a>
+              {{ end }}
               {{ if (isset .Params "doi") }}
-              <a class="btn btn-primary btn-lg px-4 mb-2" href="{{print "https://www.doi.org/" .Params.doi | absURL }}" role="button">Paper</a>
+              <a class="btn btn-primary btn-lg px-4 mb-2" href="{{print "https://www.doi.org/" .Params.doi | absURL }}" role="button">Publisher Page</a>
               {{ end }}
               {{ if (isset .Params "codeurl") }}
               <a class="btn btn-primary btn-lg px-4 mb-2" href="{{.Params.codeurl | absURL }}" role="button">Code</a>
-              {{ end }}
-              {{ if (isset .Params "fulltext") }}
-              <a class="btn btn-primary btn-lg px-4 mb-2" href="{{.Params.fulltext }}" role="button">Full-text PDF</a>
               {{ end }}
         </div>
       </div>

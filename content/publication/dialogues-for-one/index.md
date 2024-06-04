@@ -2,13 +2,14 @@
 title: "Dialogues For One: Single-User Content Creation Using Immersive Record and Replay"
 description: ""
 abstract: "Non-player characters are an essential element of many 3D and virtual reality experiences. They can make the experiences feel more lively and populated. Animation for non-player characters is often motion-captured using expensive hardware and the post-processing steps are time-consuming, especially when capturing multiple people at once. Using record and replay techniques in virtual reality can offer cheaper and easier ways of motion capture since the user is already tracked. We use immersive record and replay to enable a single user to create stacked recordings of themselves. We provide tools to help the user interact with their previous recorded self and in doing so allow them to create believable interactive scenarios with multiple characters that can be used to populate virtual environments. We create a small dialogue dataset with two amateur actors who used our tool to record dialogues alone and together in virtual reality. To evaluate whether stacked recordings are qualitatively comparable to conventional multi-user recordings and whether people could tell the difference between the two, we conducted two user studies, one online and one in virtual reality with 89 participants in total. We found that participants could not tell the difference and even slightly preferred stacked recordings."
-fulltext: "dialogues-for-one.pdf"
+pdf: "dialogues-for-one.pdf"
 publishedin: "VRST '23: Proceedings of the 29th ACM Symposium on Virtual Reality Software and Technology"
 date: 2023-10-11T00:00:00+01:00
 lastmod: 2023-10-11T00:00:00+01:00
 draft: false
 weight: 50
 images: []
+doi: "10.1145/3611659.3615695"
 contributors: ["Klara Brandstätter", "Anthony Steed"]
 ---
 

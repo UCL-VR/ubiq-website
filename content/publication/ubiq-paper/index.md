@@ -11,6 +11,7 @@ draft: false
 weight: 50
 images: []
 contributors: ["Sebastian Friston", "Ben Congdon", "David Swapp", "Lisa Izzouzi", "Klara Brandstätter", "Daniel Archer", "Otto Olkkonen", "Felix Thiel", "Anthony Steed"]
+doi: "10.1145/3489849.3489871"
 ---
 
 {{< alert icon="🏆" context="info" >}}
