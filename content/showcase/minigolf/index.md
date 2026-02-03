@@ -3,7 +3,7 @@ title: "MiniGolf"
 description: "A multi-player mini-golf game where players can edit the course layout and test it."
 lead: "A multi-player mini-golf game where players can edit the course layout and test it. From UCL Virtual Environments (COMP0113) coursework 2023."
 date: 2023-01-11T12:20:40+01:00
-date: 2023-01-11T12:20:40+01:00
+lastmod: 2023-01-11T12:20:40+01:00
 draft: false
 images: ["minigolf.png"]
 link: ""

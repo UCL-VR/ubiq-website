@@ -3,7 +3,7 @@ title: "Pizza VR"
 description: "Pizza VR is a game developed through a group project for the Virtual Environments course at UCL."
 lead: "Pizza VR is a game developed through a group project for the Virtual Environments course at UCL."
 date: 2021-06-11T12:20:40+01:00
-date: 2021-06-11T12:20:40+01:00
+lastmod: 2021-06-11T12:20:40+01:00
 draft: false
 images: ["pizzaVR.png"]
 link: ""
