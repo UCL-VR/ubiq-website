@@ -8,6 +8,7 @@ draft: false
 images: []
 menu:
   docs:
+    identifier: "messaging-introduction"
     parent: "messaging"
 weight: 350
 toc: true

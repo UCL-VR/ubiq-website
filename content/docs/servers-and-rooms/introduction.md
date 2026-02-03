@@ -8,6 +8,7 @@ draft: false
 images: []
 menu:
   docs:
+    identifier: "servers-and-rooms-introduction"
     parent: "servers-and-rooms"
 weight: 350
 toc: true
