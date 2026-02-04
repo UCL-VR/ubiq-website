@@ -45,10 +45,10 @@
     "eslint": "^8.14",
     "exec-bin": "^1.0.0",
     "highlight.js": "^11.5",
-    "hugo-installer": "^3.1",
+    "hugo-installer": "^4.0.1",
     "instant.page": "^5.1",
     "lazysizes": "^5.3",
-    "markdownlint-cli2": "^0.4.0",
+    "markdownlint-cli2": "^0.20.0",
     "node-fetch": "^3.2",
     "postcss": "^8.4",
     "postcss-cli": "^10.1",
@@ -59,6 +59,9 @@
   },
   "otherDependencies": {
     "hugo": "0.92.2"
+  },
+  "overrides": {
+    "semver": "^7.5.2"
   },
   "dependencies": {
     "lottie-web": "^5.9.4"
