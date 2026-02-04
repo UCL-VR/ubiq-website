@@ -2,79 +2,79 @@
   name = "Getting Started"
   weight = 10
   identifier = "getting-started"
-  url = "/docs/getting-started/"
+  url = "docs/getting-started/"
 
 [[docs]]
   name = "Server"
   weight = 20
   identifier = "server"
-  url = "/docs/server/"
+  url = "docs/server/"
 
 [[docs]]
   name = "Nexus"
   weight = 30
   identifier = "nexus"
-  url = "/docs/nexus/"
+  url = "docs/nexus/"
 
 [[docs]]
 name = "Interaction"
 weight = 40
 identifier = "interaction"
-url = "/docs/interaction/"
+url = "docs/interaction/"
 
 [[docs]]
   name = "Logging"
   weight = 50
   identifier = "logging"
-  url = "/docs/logging/"
+  url = "docs/logging/"
 
 [[docs]]
   name = "Messaging"
   weight = 60
   identifier = "messaging"
-  url = "/docs/messaging/"
+  url = "docs/messaging/"
 
 [[docs]]
   name = "WebRtc"
   weight = 70
   identifier = "webrtc"
-  url = "/docs/webrtc/"  
+  url = "docs/webrtc/"  
 
 [[docs]]
   name = "Servers and Rooms"
   weight = 80
   identifier = "servers-and-rooms"
-  url = "/docs/servers-and-rooms/"
+  url = "docs/servers-and-rooms/"
 
 [[docs]]
   name = "Async Design Patterns"
   weight = 90
   identifier = "async-design-patterns"
-  url = "/docs/async-design-patters/"
+  url = "docs/async-design-patters/"
 
 [[docs]]
   name = "Packaging"
   weight = 100
   identifier = "packaging"
-  url = "/docs/packaging/"
+  url = "docs/packaging/"
 
 [[docs]]
   name = "Meta"
   weight = 110
   identifier = "meta"
-  url = "/docs/meta/" 
+  url = "docs/meta/" 
 
 [[docs]]
   name = "Programming"
   weight = 50
   identifier = "programming"
-  url = "/docs/programming/"
+  url = "docs/programming/"
 
 [[docs]]
   name = "Development"
   weight = 70
   identifier = "development"
-  url = "/docs/development/"
+  url = "docs/development/"
 
 [[main]]
   name = "Docs"
@@ -84,41 +84,41 @@ url = "/docs/interaction/"
 
 [[main]]
   name = "Showcase"
-  url = "/showcase/"
+  url = "showcase/"
   weight = 30
 
 [[main]]
   name = "Blog"
-  url = "/blog/"
+  url = "blog/"
   weight = 40
 
 [[main]]
   name = "Publications"
-  url = "/publication/"
+  url = "publication/"
   weight = 40
   
 [[main]]
   name = "Teaching"
   weight = 40
-  url = "/teaching"
+  url = "teaching"
   identifier = "teaching"
 
 [[main]]
   name = "Contact"
   weight = 60
-  url = "/contact/"
+  url = "contact/"
   identifier = "contact"
 
 [[main]]
   name = "Contributors"
   weight = 10
-  url = "/contributors/"
+  url = "contributors/"
   parent = "contact"
 
 [[main]]
   name = "Media"
   weight = 20
-  url = "/media/"
+  url = "media/"
   parent = "contact"
 
 [[main]]
@@ -151,14 +151,14 @@ url = "/docs/interaction/"
 
 [[footer]]
   name = "Privacy"
-  url = "/privacy-policy/"
+  url = "privacy-policy/"
   weight = 20
 
 [[tutorial]]
   name = "Tutorial"
   weight = 10
   identifier = "tutorial"
-  url = "/tutorial/"
+  url = "tutorial/"
 
 [[secondary]]
   name = "Ask a question"
@@ -169,7 +169,7 @@ url = "/docs/interaction/"
   name = "Browse"
   weight = 10
   identifier = "browse"
-  url = "/showcase/"
+  url = "showcase/"
 
 [[tertiary]]
   name = "Submit to Showcase"
