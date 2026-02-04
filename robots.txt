@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ubiq.online/sitemap.xml
+Sitemap: https://ucl-vr.github.io/ubiq-website/sitemap.xml
