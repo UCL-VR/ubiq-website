@@ -23,10 +23,11 @@ jobs:
         run: npm run clean
 
       - name: Build production website
-        run: ./node_modules/.bin/hugo/hugo --gc --minify --baseURL https://ucl-vr.github.io/ubiq-website/
+        run: ./node_modules/.bin/hugo/hugo --gc --minify --baseURL https://ubiq.online/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: ubiq.online
