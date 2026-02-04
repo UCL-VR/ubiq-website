@@ -23,7 +23,7 @@ jobs:
         run: npm run clean
 
       - name: Build production website
-        run: exec-bin node_modules/.bin/hugo/hugo --gc --minify --baseURL https://ucl-vr.github.io/ubiq-website/
+        run: ./node_modules/.bin/hugo/hugo --gc --minify --baseURL https://ucl-vr.github.io/ubiq-website/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
