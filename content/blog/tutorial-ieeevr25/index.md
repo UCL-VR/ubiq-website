@@ -12,8 +12,6 @@ contributors: ["Anthony Steed", "Ben Congdon", "Jingyi Zhang", "Ruijun (Phoenix)
 
 {{< alert context="info" >}}
 
-Full sets of slides and video of the tutorial will be available after
-IEEE VR 2025.
 
 {{< /alert >}}
 
@@ -62,9 +60,6 @@ During the tutorial, the following topics will be covered.
 | Q&A (All)                                    |                    12:20 |
 { .table-striped }
 
-## Slides
-
-To be added
 
 ## Presenter Bios
 

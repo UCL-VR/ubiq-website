@@ -12,8 +12,7 @@ contributors: ["Anthony Steed", "Nels Numan", "Ruijun (Phoenix) Sun", "Daniele G
 
 {{< alert context="info" >}}
 
-Full sets of slides and video of the tutorial will be available after
-IEEE VR 2026.
+Full sets of slides are available below.
 
 {{< /alert >}}
 
@@ -24,7 +23,7 @@ In this tutorial we will explore how to build a wide variety of collaborative ex
 
 {{< alert context="info" >}}
 
-For information on how to join the tutorial, please see the **IEEE VR 2026** [tutorial page](https://ieeevr.org/2026/program/tutorials/3). Time and location to be announced.
+This tutorial ran in March, see the **IEEE VR 2026** [tutorial page](https://ieeevr.org/2026/program/tutorials/3). 
 
 
 {{< /alert >}}
@@ -66,7 +65,7 @@ During the tutorial, the following topics will be covered.
 
 ## Slides
 
-To be added
+[Full slides](ubiq-ubiqgenie.pdf)
 
 ## Presenter Bios
 
